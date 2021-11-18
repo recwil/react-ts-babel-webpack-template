@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext"
+		],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": false,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"@atoms/*": ["./src/components/atoms/*"],
+			"@molecules/*": ["./src/components/molecules/*"],
+			"@organisms/*": ["./src/components/organisms/*"],
+			"@templates/*": ["./src/components/templates/*"],
+			"@pages/*": ["./src/components/pages/*"],
+			"@models/*": ["./src/models/*"]
+		}
+	},
+	"include": [
+		"src"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
